@@ -12,10 +12,12 @@ Solutions
    
 https://github.com/AzwadFawadHasan/ScreenshotScanner
 
-Does what we need, easy implementation and fast
+Does what we need, easy implementation and fast 
+
+Tested not working well need to found something else, in my test set assigned all screenshots as a photos and one photo as a screenshot
 
 2) We can use:
-  
+  CV2 -> The quality.py and quality.ipynb did it look ok for me
 
 3) 
 
