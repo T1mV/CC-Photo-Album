@@ -6,17 +6,21 @@ We want to upload the photos and then
 3) Choose one of the very similar photos — delete the duplicates
 4) Find the context of the remaining photos — it will probably depend on what templates we have ready, and we will need to connect them
 5) Choose the best ones for a chosen template
-
-
+--------------------------------------------------------------------------------------------------------------------------------------
+Solutions
 1) Propose to use
+   
 https://github.com/AzwadFawadHasan/ScreenshotScanner
+
 Does what we need, easy implementation and fast
 
 2) We can use:
   
 
-4) 
+3) 
 
-5) No idea yet, but some potentially useful things:
+4) No idea yet, but some potentially useful things:
+   
 https://docs.opencv.org/5.0/main_modules/imgproc_object.html
+
 https://docs.opencv.org/5.0/main_modules/objdetect.html
