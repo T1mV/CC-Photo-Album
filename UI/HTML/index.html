@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Photo Album Generator</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <script src="../JavaScript/themes.js" defer></script>
+    <script src="../JavaScript/layouts.js" defer></script>
+    <script src="../JavaScript/album.js" defer></script>
+    <script src="../JavaScript/script.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <header class="header">
+            <h1>My Photo Album</h1>
+            <p>A collection of memories</p>
+        </header>
+
+        <main class="album-container">
+
+            <section class="small-images">
+
+                <div class="page-decorations left-decorations" aria-hidden="true">
+                    <!--theme stickers -->
+                </div>
+
+                <article class="small-image-card">
+                    <img src="https://picsum.photos/600/400?random=1"
+                        alt="First memory"
+                        class="small-image">
+
+                    <div class="small-image-caption">
+                        <h3>Exploring the city</h3>
+                        <p>A lovely afternoon exploring new places.</p>
+                    </div>
+                </article>
+
+                <article class="small-image-card">
+                    <img src="https://picsum.photos/600/400?random=2"
+                        alt="Second memory"
+                        class="small-image">
+
+                    <div class="small-image-caption">
+                        <h3>A coffee break</h3>
+                        <p>Taking a moment to relax and enjoy the day.</p>
+                    </div>
+                </article>
+
+                <article class="small-image-card">
+                    <img src="https://picsum.photos/600/400?random=3"
+                        alt="Third memory"
+                        class="small-image">
+
+                    <div class="small-image-caption">
+                        <h3>The perfect ending</h3>
+                        <p>Finishing the day with a beautiful view.</p>
+                    </div>
+                </article>
+
+            </section>
+
+            <section class="main-image-section">
+
+                <div class="page-decorations right-decorations" aria-hidden="true">
+                    <!-- stickers -->
+                </div>
+
+                <img src="https://picsum.photos/1000/1200?random=4"
+                     alt="Main memory of the day"
+                     class="main-image">
+
+                <div class="main-description">
+
+                    <h2>A day to remember</h2>
+
+                    <p>
+                        Today was one of those days that you wish could
+                        last forever. We explored new places, discovered
+                        lovely little cafés and enjoyed the beautiful
+                        scenery.
+
+                        It was a day full of little moments that made
+                        for wonderful memories.
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <section class="album-controls">
+
+            <button id="previous-layout">
+                Previous layout
+            </button>
+
+            <span id="layout-indicator">
+                Layout 1
+            </span>
+
+            <button id="next-layout">
+                Next layout
+            </button>
+
+            <button id="mirror-layout">
+                Mirror layout
+            </button>
+
+            <label for="theme-selector">Theme:</label>
+
+            <select id="theme-selector">
+                <option value="vintage">Vintage</option>
+                <option value="nature">Nature</option>
+                <option value="dreamy">Dreamy</option>
+                <option value="minimalist">Minimalist</option>
+                <option value="city">City</option>
+                <option value="summer">Summer</option>
+                <option value="spring">Spring</option>
+                <option value="autumn">Autumn</option>
+                <option value="winter">Winter</option>
+                <option value="beach">Beach</option>
+            </select>
+
+        </section>
+
+    </div>
+
+</body>
+</html>
