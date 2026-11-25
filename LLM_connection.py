@@ -79,12 +79,13 @@ def choose_LLM_connection(choice, image, prompt, model):
     else:
         print("Input either 'GoogleAI', 'Ollama', or 'OpenRouter' as the choice.")
 
-
+print("FIRST LLM CALL")
 choose_LLM_connection("GoogleAI", image, prompt, "gemini-3.5-flash-lite")
-# choose_LLM_connection("Ollama", image, prompt, "gemma4:e4b")
+print("")
+print("SECOND LLM CALL")
 choose_LLM_connection("OpenRouter", image, prompt, "anthropic/claude-haiku-5.5")
+# choose_LLM_connection("Ollama", image, prompt, "gemma4:e4b")
 
-# two tests for the else
-choose_LLM_connection("Test", image, prompt, "gemini-3.5-flash-lite")
+# one tests for the else
 # choose_LLM_connection("GoogleAI", image, prompt, "test") 
 # this one ^ still errors because it never enters the else, fix later or make sure to use correct model name
